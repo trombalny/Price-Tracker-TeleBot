@@ -1,2 +1,2 @@
 # Price-Tracker-TeleBot
-Telegram bot with (потом оформлю красиво)
+Telegram bot FPIBANK price monitor (потом оформлю красиво)
