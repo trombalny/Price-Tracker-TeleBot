@@ -14,9 +14,9 @@
 
 Вы можете установить их с помощью pip:
 
-bash
+```bash
 pip install pyTelegramBotAPI requests matplotlib
-
+```
 ## Конфигурация
 
 Перед запуском скрипта вам необходимо настроить следующие переменные:
@@ -26,12 +26,12 @@ pip install pyTelegramBotAPI requests matplotlib
 - CHANNEL: ID канала Telegram, куда будут отправляться сообщения.
 - filename: Имя файла для хранения цен токена.
 
-python
+```python
 BOT_TOKEN = "YOURBOT_TOKEN"
 API_URL = "YOURAPI_URL"
 CHANNEL = YOURCHANNELID
 filename = "cost.txt"
-
+```
 ## Функционал
 
 ### Основные функции
@@ -49,9 +49,9 @@ filename = "cost.txt"
 
 Чтобы запустить скрипт, выполните следующую команду в терминале:
 
-bash
+```bash
 python bot.py
-
+```
 ## Примечания
 
 - Убедитесь, что у вашего бота есть доступ к каналу, в который он будет отправлять сообщения.
